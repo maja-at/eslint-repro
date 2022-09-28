@@ -1,0 +1,15 @@
+{
+  "name": "eslintImportIssueRepro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Maja Wichrowska <maja.wichrowska@airtable.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "@typescript-eslint/parser": "^5.38.1",
+    "eslint": "^8.0.1",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.25.2",
+    "typescript": "^4.8.4"
+  }
+}

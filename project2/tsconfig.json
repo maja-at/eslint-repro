@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "baseUrl": "..",
+        "composite": true,
+    },
+    "references": [
+        {"path": "../project1/tsconfig.json"}
+    ],
+    "include": ["."],
+}

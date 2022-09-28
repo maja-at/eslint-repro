@@ -1,0 +1,12 @@
+{
+    "references": [{"path": "./project1/tsconfig.json"},{"path": "./project2/tsconfig.json"}],
+    "include": ["."],
+    "compilerOptions": {
+        "baseUrl": ".", 
+        "composite": true,
+        "target": "es2022",
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "isolatedModules": true,
+    },
+}
