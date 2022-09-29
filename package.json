@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "Maja Wichrowska <maja.wichrowska@airtable.com>",
   "license": "MIT",
+  "scripts": {"eslint": "eslint"},
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "5.34.0",
     "@typescript-eslint/parser": "5.34.0",
