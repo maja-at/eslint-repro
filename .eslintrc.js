@@ -18,14 +18,15 @@ module.exports = {
   settings: {
       'import/resolver': {
           typescript: {
+              alwaysTryTypes: true,
               extensions: ['.ts', '.tsx', '.js', '.jsx', '.d.ts'],
           },
       },
   },
   rules: {
     'import/no-extraneous-dependencies': [
-        'error', 
-        {devDependencies: true},
-    ]
+        'error',
+        {devDependencies: ['**/*.test.ts']},
+    ],
   }
 }

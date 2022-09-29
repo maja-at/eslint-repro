@@ -2,6 +2,8 @@
     "compilerOptions": {
         "baseUrl": "..",
         "composite": true,
+        // "target": "es2018",
+        // "lib": ["ES2018", "DOM", "DOM.Iterable", "ES2020.Intl", "ES2021.Intl"]
     },
     "references": [
         {"path": "../project1/tsconfig.json"}
