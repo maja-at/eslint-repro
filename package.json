@@ -12,5 +12,6 @@
     "eslint-import-resolver-typescript": "2.4.0",
     "eslint-plugin-import": "2.26.0",
     "typescript": "4.8.2"
-  }
+  },
+  "workspaces": ["project1", "project2"]
 }
